@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200 !important;
+  text-align: center;
+}
+
+#home-page {
+  text-align: center;
+  position: relative;
+  height: 975px;
+  background-image: url("/assets/img/photo-home.jpg");
+  background-size: cover;
+}
+#home-page h1 {
+  color: white;
+  position: relative;
+  top: 30%;
+  bottom: 30%;
+  font-size: 96px;
+}
+
+#home-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.65;
+  background-color: #FF7F3F;
+}
+
+/*# sourceMappingURL=styles.css.map */
