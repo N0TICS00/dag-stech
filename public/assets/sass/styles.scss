@@ -1,30 +1,58 @@
+@use 'variables';
+// UNIVERSAL SELECTOR
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
+// TAG SELECTOR
 h1{
     position: relative;
     font-family: 'Raleway', sans-serif;
     font-weight: 200 !important;
     text-align: center;
+    font-size: 48px;
 }
-// HOME PAGE BG
+// HOME PAGE 
 #home-page{
     text-align: center;
     position: relative;
     height: 975px  ;
-    
+    color:white;
     background-image: url("/assets/img/photo-home.jpg");
     background-size: cover;
     h1{
-        color:white;
         position: relative;
         top: 30%;
         bottom: 30%;
         font-size: 96px;
+    }
+    .button{
+        color: white;
+        position: relative;
+        top: 32%;
+        background-color:#3EA104;
+        width: 160px;
+        height: 50px;
+   
 
     }
+    .down{
+        text-align: center;
+        position: relative;
+        width: 100px;
+        height: 75px;
+        display:block;
+        top: 35%;
+        left:40%
+    }
+ 
+        .navbar-brand{
+            margin: 0 auto;
+            font-size: 48px;
+        }
+
 }
 #home-page::before{
     content:"";
@@ -34,5 +62,60 @@ h1{
     left: 0;
     right: 0;
     opacity: 0.65;
-    background-color:#FF7F3F
+    background-color:variables.$primary-color;
+}
+//COURSES PAGE
+#courses{
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .card{
+        position: relative;
+        margin-bottom: 50px;
+        h5{
+            font-size: 24px;
+        }
+        div{
+            position: relative;
+        }
+        .btn{
+            background-color: variables.$primary-color;
+            color: white
+        };
+        .card-img-top{
+            width: 287px;
+            height: 157px;
+            background-size: cover;
+        }
+        .card-img-top::before{
+            content: "";
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            background-color: variables.$primary-color;
+            opacity: 0.45
+        }
+        #first-image{
+            background-image: url('/assets/img/html-css.jpg');
+        }
+        #second-image{
+            background-image: url('/assets/img/js-basics.jpg');
+        }
+    }
+}
+//TEACHER
+#teacher{
+    text-align: center;
+    .teacher-img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        outline-style: solid;
+        outline-color: variables.$primary-color;
+        outline-width: 5px;
+    }
 }

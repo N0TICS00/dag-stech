@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
 h1 {
@@ -9,21 +10,43 @@ h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 200 !important;
   text-align: center;
+  font-size: 48px;
 }
 
 #home-page {
   text-align: center;
   position: relative;
   height: 975px;
+  color: white;
   background-image: url("/assets/img/photo-home.jpg");
   background-size: cover;
 }
 #home-page h1 {
-  color: white;
   position: relative;
   top: 30%;
   bottom: 30%;
   font-size: 96px;
+}
+#home-page .button {
+  color: white;
+  position: relative;
+  top: 32%;
+  background-color: #3EA104;
+  width: 160px;
+  height: 50px;
+}
+#home-page .down {
+  text-align: center;
+  position: relative;
+  width: 100px;
+  height: 75px;
+  display: block;
+  top: 35%;
+  left: 40%;
+}
+#home-page .navbar-brand {
+  margin: 0 auto;
+  font-size: 48px;
 }
 
 #home-page::before {
@@ -35,6 +58,60 @@ h1 {
   right: 0;
   opacity: 0.65;
   background-color: #FF7F3F;
+}
+
+#courses {
+  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#courses .card {
+  position: relative;
+  margin-bottom: 50px;
+}
+#courses .card h5 {
+  font-size: 24px;
+}
+#courses .card div {
+  position: relative;
+}
+#courses .card .btn {
+  background-color: #FF7F3F;
+  color: white;
+}
+#courses .card .card-img-top {
+  width: 287px;
+  height: 157px;
+  background-size: cover;
+}
+#courses .card .card-img-top::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #FF7F3F;
+  opacity: 0.45;
+}
+#courses .card #first-image {
+  background-image: url("/assets/img/html-css.jpg");
+}
+#courses .card #second-image {
+  background-image: url("/assets/img/js-basics.jpg");
+}
+
+#teacher {
+  text-align: center;
+}
+#teacher .teacher-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  outline-style: solid;
+  outline-color: #FF7F3F;
+  outline-width: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
