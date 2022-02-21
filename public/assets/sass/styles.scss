@@ -14,6 +14,9 @@ h1{
     text-align: center;
     font-size: 48px;
 }
+p{
+    font-size: 16px
+}
 // HOME PAGE 
 #home-page{
     text-align: center;
@@ -110,6 +113,7 @@ h1{
 //TEACHER
 #teacher{
     text-align: center;
+    padding: 50px;
     .teacher-img{
         width: 200px;
         height: 200px;
@@ -118,4 +122,24 @@ h1{
         outline-color: variables.$primary-color;
         outline-width: 5px;
     }
+}
+//FORM
+#form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    input{
+        border: solid 2px;
+        border-color: variables.$primary-color;
+        border-radius: 10px;
+    }
+    .btn{
+        background-color: variables.$primary-color;
+        color: white;
+    }
+    a{
+        color:variables.$primary-color
+    }
+    
+
 }

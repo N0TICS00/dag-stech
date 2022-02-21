@@ -13,6 +13,10 @@ h1 {
   font-size: 48px;
 }
 
+p {
+  font-size: 16px;
+}
+
 #home-page {
   text-align: center;
   position: relative;
@@ -104,6 +108,7 @@ h1 {
 
 #teacher {
   text-align: center;
+  padding: 50px;
 }
 #teacher .teacher-img {
   width: 200px;
@@ -112,6 +117,24 @@ h1 {
   outline-style: solid;
   outline-color: #FF7F3F;
   outline-width: 5px;
+}
+
+#form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#form input {
+  border: solid 2px;
+  border-color: #FF7F3F;
+  border-radius: 10px;
+}
+#form .btn {
+  background-color: #FF7F3F;
+  color: white;
+}
+#form a {
+  color: #FF7F3F;
 }
 
 /*# sourceMappingURL=styles.css.map */

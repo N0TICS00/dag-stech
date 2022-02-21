@@ -42,6 +42,39 @@
     <div class="teacher">
         <img class="teacher-img" src="assets/img/teacher.jpg" alt="Warren Morrison's image">
         <h1>Warren Morrison</h1>
+        <p>Warren Morrison was born in 7/5/1970 in London.
+            He discovered a passion for programming when he was 13. He attended Computer Science and got a job at Centure Inc. At the age of 25 he became Senior Full Stack Developer at the Renesas Company and thanks to this work he was able to find new stimuli, so much so that he could register a course.</p>
+    </div>
+</section>
+<!--FORM-->
+<section id="form">
+    <h1>Subscribe to our platform.  </h1>
+    <div class="form-div">
+        <form>
+            <p>
+            <label>
+                <h5>Name</h5>
+                <input type="text" name="name">
+            </label>
+            </p>
+            <p>
+            <label>
+                <h5>Email</h5>
+                <input type="email" name="email">
+            </label>
+            </p>
+            <p>
+            <label>
+                <h5>Password</h5>
+                <input type="password" name="password">
+            </label>
+            </p>
+            <div class="buttons">
+            <a class="btn">Sign Up</a>
+            <p>or</p>
+            <a>Login</a>
+            </div>
+        </form>
     </div>
 </section>
 @include("partials.footer")
