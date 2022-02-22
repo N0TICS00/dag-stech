@@ -5,13 +5,13 @@
     <!--NAVBAR-->
     <nav class="navbar ">
         <div class="container">
-            <h1 class="navbar-brand align-middle">
+            <a class="navbar-brand align-middle" href="/">
                 dag's tech
-            </h1>
+            </a>
         </div>
     </nav>
     <h1>Choose us for your formation.</h1>
-    <button class="btn button btn-lg">Sign Up</button>
+    <a class="btn button btn-lg" href="#form">Sign Up</a>
     <ion-icon name="chevron-down-outline" class="down"></ion-icon>
 </section>
 <!--COURSES-->
@@ -70,9 +70,11 @@
             </label>
             </p>
             <div class="buttons">
-            <a class="btn">Sign Up</a>
+            <p>
+            <a href="" class="btn">Sign Up</a>
             <p>or</p>
-            <a>Login</a>
+            <a href="">Login</a>
+            </p>
             </div>
         </form>
     </div>

@@ -17,6 +17,7 @@ h1{
 p{
     font-size: 16px
 }
+//WELCOME PAGE
 // HOME PAGE 
 #home-page{
     text-align: center;
@@ -54,8 +55,8 @@ p{
         .navbar-brand{
             margin: 0 auto;
             font-size: 48px;
+            color:white
         }
-
 }
 #home-page::before{
     content:"";
@@ -138,8 +139,12 @@ p{
         color: white;
     }
     a{
-        color:variables.$primary-color
+        color:variables.$primary-color 
     }
     
-
+    
+}
+//MEMBERSHIP PAGE
+.navbar{
+    background-color: variables.$primary-color !important;
 }

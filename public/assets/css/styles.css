@@ -51,6 +51,7 @@ p {
 #home-page .navbar-brand {
   margin: 0 auto;
   font-size: 48px;
+  color: white;
 }
 
 #home-page::before {
@@ -135,6 +136,10 @@ p {
 }
 #form a {
   color: #FF7F3F;
+}
+
+.navbar {
+  background-color: #FF7F3F !important;
 }
 
 /*# sourceMappingURL=styles.css.map */
