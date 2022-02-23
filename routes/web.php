@@ -19,3 +19,8 @@ Route::get('/', function () {
 Route::get("/overview", function(){
     return view('membership/overview');
 });
+
+Route::get("/courses/{id}", function(){
+
+});
+

@@ -145,6 +145,18 @@ p{
     
 }
 //MEMBERSHIP PAGE
-.navbar{
-    background-color: variables.$primary-color !important;
+#navbar{
+    .navbar{
+        background-color: variables.$primary-color !important;
+        .user-name{
+            margin-left: 150px;
+        }
+    }
+}
+//COLLAPSE PAGE
+#collapse{
+    button{
+        width: 100%;
+   
+    }
 }

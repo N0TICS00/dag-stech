@@ -138,8 +138,15 @@ p {
   color: #FF7F3F;
 }
 
-.navbar {
+#navbar .navbar {
   background-color: #FF7F3F !important;
+}
+#navbar .navbar .user-name {
+  margin-left: 150px;
+}
+
+#collapse button {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
