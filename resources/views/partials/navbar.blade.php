@@ -12,8 +12,10 @@
           <a class="nav-link" href="/overview">Your courses</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="/faq">FAQ</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Log Out</a>
-          
         </li>
         
     </div>
