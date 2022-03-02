@@ -17,6 +17,7 @@
 <!--COURSES-->
 <section id="courses">
     <h1>Our Courses.</h1>
+    <div class="cards">
     <div class="card" style="width: 18rem;">
         <div class="card-img-top" id="first-image">
         </div>
@@ -34,6 +35,7 @@
             <p class="card-text">JavaScript is the most viewed course on our platform. These lessons will give you the general knowledge to be able to take the Advanced course.</p>
         </div>
     </div>
+    </div>
 </section>
 <!--TEACHER-->
 <section id="teacher">
@@ -41,7 +43,7 @@
     <div class="teacher">
         <img class="teacher-img" src="assets/img/teacher.jpg" alt="Warren Morrison's image">
         <h1>Warren Morrison</h1>
-        <p>Warren Morrison was born in 7/5/1970 in London.
+        <p class="teacher-p">Warren Morrison was born in 7/5/1970 in London.
             He discovered a passion for programming when he was 13. He attended Computer Science and got a job at Centure Inc. At the age of 25 he became Senior Full Stack Developer at the Renesas Company and thanks to this work he was able to find new stimuli, so much so that he could register a course.</p>
     </div>
 </section>
@@ -53,19 +55,19 @@
             <p>
             <label>
                 <h5>Name</h5>
-                <input type="text" name="name">
+                <input type="text" name="name" class="form">
             </label>
             </p>
             <p>
             <label>
                 <h5>Email</h5>
-                <input type="email" name="email">
+                <input type="email" name="email" class="form">
             </label>
             </p>
             <p>
             <label>
                 <h5>Password</h5>
-                <input type="password" name="password">
+                <input type="password" name="password" class="form">
             </label>
             </p>
             <div class="buttons">

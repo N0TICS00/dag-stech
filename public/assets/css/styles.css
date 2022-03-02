@@ -17,6 +17,78 @@ p {
   font-size: 16px;
 }
 
+/*Waves*/
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 400px;
+}
+
+/* Animation */
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+
+  .content {
+    height: 30vh;
+  }
+}
+/*Other*/
+.unique-color-dark {
+  background-color: #FF7F3F !important;
+}
+
+.bg-light {
+  background-color: #FF7F3F !important;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.custom-color {
+  background-color: #FF7F3F !important;
+}
+
 #home-page {
   text-align: center;
   position: relative;
@@ -49,7 +121,6 @@ p {
   left: 40%;
 }
 #home-page .navbar-brand {
-  margin: 0 auto;
   font-size: 48px;
   color: white;
 }
@@ -141,9 +212,6 @@ p {
 #navbar .navbar {
   background-color: #FF7F3F !important;
 }
-#navbar .navbar .user-name {
-  margin-left: 150px;
-}
 
 #faq {
   margin-top: 75px;
@@ -151,6 +219,55 @@ p {
 
 #html-css .video {
   width: 100%;
+}
+
+@media only screen and (min-width: 961px) {
+  .container {
+    padding: 1.5% 7.5%;
+  }
+
+  #homepage {
+    text-align: center;
+  }
+
+  .down {
+    margin-left: 140px;
+  }
+
+  #courses {
+    margin-top: -100px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card {
+    margin: 10px 200px;
+  }
+
+  .teacher-img {
+    margin-bottom: 20px;
+  }
+
+  .teacher-p {
+    padding: 0 500px;
+  }
+
+  .form {
+    width: 300px;
+    height: 25px;
+  }
+
+  .container {
+    padding: 0.5% 7.5%;
+  }
+
+  .items {
+    position: relative;
+    left: 210px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

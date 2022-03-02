@@ -5,6 +5,7 @@
 <!--COURSES-->
 <section id="courses">
     <h1>Our Courses.</h1>
+    <div class="cards">
     <div class="card" style="width: 18rem;">
         <div class="card-img-top" id="first-image">
         </div>
@@ -24,6 +25,7 @@
 
  
         </div>
+    </div>
     </div>
 </section>
 @include("partials.footer")
