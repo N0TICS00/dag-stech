@@ -121,6 +121,7 @@ p {
   left: 40%;
 }
 #home-page .navbar-brand {
+  margin-left: 40%;
   font-size: 48px;
   color: white;
 }

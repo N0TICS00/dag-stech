@@ -14,4 +14,5 @@ Route::get("/faq", function(){
 });
 
 Route::get("/courses/{id}", [CoursesController::class, 'redirect']);
+Route::get("/test", [CoursesController::class, "test"]);
 

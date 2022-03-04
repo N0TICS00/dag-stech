@@ -15,7 +15,7 @@
 <footer class="page-footer font-small unique-color-dark pt-4">
   <div class="container">
 
-  <div class="footer-copyright text-center py-3" style="color:white"><h7>© 2020 Copyright:</h7>
+  <div class="footer-copyright text-center py-3" style="color:white"><h7>© 2022 Copyright:</h7>
     <h7> dag's tech</h7>
   </div>
 </footer>
