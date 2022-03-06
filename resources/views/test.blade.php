@@ -1,1 +1,0 @@
-<? die(var_dump($users->name)) ?>

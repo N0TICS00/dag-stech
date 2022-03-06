@@ -14,12 +14,4 @@ class CoursesController extends Controller
             return view("membership/courses/js-basics");
         }
     }
-    public function test(){
-        $users = new User();
-        $users->name = "Paolo";
-        $users->email = "pp";
-        $users->password="password";
-        $users->save();
-        return view("/test", ["users"=> User::All()]);
-    }
 }

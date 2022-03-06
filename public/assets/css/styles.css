@@ -5,6 +5,10 @@
   font-family: "Raleway", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 h1 {
   position: relative;
   font-family: "Raleway", sans-serif;
@@ -121,7 +125,7 @@ p {
   left: 40%;
 }
 #home-page .navbar-brand {
-  margin-left: 40%;
+  margin-left: 25%;
   font-size: 48px;
   color: white;
 }
@@ -146,6 +150,7 @@ p {
 #courses .card {
   position: relative;
   margin-bottom: 50px;
+  width: 400px;
 }
 #courses .card h5 {
   font-size: 24px;
@@ -158,8 +163,8 @@ p {
   color: white;
 }
 #courses .card .card-img-top {
-  width: 287px;
-  height: 157px;
+  width: 399px;
+  height: 300px;
   background-size: cover;
 }
 #courses .card .card-img-top::before {
@@ -216,10 +221,20 @@ p {
 
 #faq {
   margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 #html-css .video {
   width: 100%;
+}
+
+.login {
+  margin-top: 300px;
+}
+
+.alert {
+  margin-left: 38%;
+  width: 450px;
 }
 
 @media only screen and (min-width: 961px) {
@@ -245,7 +260,12 @@ p {
   }
 
   .card {
-    margin: 10px 200px;
+    margin: 0px 200px;
+    width: 600px !important;
+  }
+
+  .card-img-top {
+    width: 599px !important;
   }
 
   .teacher-img {
@@ -268,6 +288,14 @@ p {
   .items {
     position: relative;
     left: 210px;
+  }
+
+  .accordion {
+    margin-left: 31%;
+  }
+
+  .accordion-item {
+    width: 700px;
   }
 }
 

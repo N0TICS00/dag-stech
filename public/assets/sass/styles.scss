@@ -7,6 +7,9 @@
     font-family: 'Raleway', sans-serif;
 }
 // TAG SELECTOR
+body{
+    overflow-x: hidden;
+}
 h1{
     position: relative;
     font-family: 'Raleway', sans-serif;
@@ -121,7 +124,7 @@ p{
     }
  
         .navbar-brand{
-            margin-left: 40%;
+            margin-left: 25%;
             font-size: 48px;
             color:white
         }
@@ -146,6 +149,7 @@ p{
     .card{
         position: relative;
         margin-bottom: 50px;
+        width: 400px;
         h5{
             font-size: 24px;
         }
@@ -157,8 +161,8 @@ p{
             color: white
         };
         .card-img-top{
-            width: 287px;
-            height: 157px;
+            width: 399px;
+            height: 300px;
             background-size: cover;
         }
         .card-img-top::before{
@@ -221,7 +225,9 @@ p{
 }
 //FAQ PAGE
 #faq{
-    margin-top:75px
+    margin-top:75px;
+    margin-bottom: 75px;
+
 }
 //HTML & CSS PAGE
 #html-css{
@@ -230,7 +236,14 @@ p{
         
     }
 }
-
+.login{
+    margin-top: 300px;
+}
+.alert{
+    margin-left:38%;
+    width: 450px;
+    
+}
 // PC
 @media only screen and (min-width:961px){
     .container{
@@ -250,9 +263,12 @@ p{
         flex-direction: row;
     }
     .card{
-        margin:10px  200px
-        
+        margin:0px 200px;
+        width: 600px !important;
     }
+   .card-img-top{
+       width: 599px !important; 
+   }
     .teacher-img{
         margin-bottom: 20px;
     }
@@ -273,5 +289,10 @@ p{
         position: relative;
         left: 210px
     }
-
+    .accordion{
+        margin-left:31%
+    }
+    .accordion-item{
+        width:700px
+    }
 };
