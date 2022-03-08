@@ -15,7 +15,7 @@
     <ion-icon name="chevron-down-outline" class="down"></ion-icon>
 </section>
 <!--COURSES-->
-<section id="courses">
+<section class="courses">
     <h1>Our Courses.</h1>
     <div class="cards">
     <div class="card" >
@@ -32,7 +32,7 @@
                 <li>Creative Work with them and their framework such as Bootstrap and TailWind</li>
 
             </ul>
-            <button class="btn">Course's Roadmap</button>
+            <a class="btn" href="/roadmap/1">Course's Roadmap</a>
         </p>
 
         </div>
@@ -52,7 +52,7 @@
             </ul>
 
         </p>
-        <button class="btn">Course's roadmap</button>
+        <a class="btn" href="/roadmap/1">Course's roadmap</a>
         </div>
     </div>
     </div>
@@ -61,7 +61,7 @@
 <section id="teacher">
     <h1>Meet the teacher.</h1>
     <div class="teacher">
-        <img class="teacher-img" src="assets/img/teacher.jpg" alt="Warren Morrison's image">
+        <img class="teacher-img" src="assets/img/teacher.jpg" alt="Warren Morrison">
         <h1>Warren Morrison</h1>
         <p class="teacher-p">Warren Morrison was born in 7/5/1970 in London.
             He discovered a passion for programming when he was 13. He attended Computer Science and got a job at Centure Inc. At the age of 25 he became Senior Full Stack Developer at the Renesas Company and thanks to this work he was able to find new stimuli, so much so that he could register a course.</p>

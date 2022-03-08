@@ -93,6 +93,11 @@ p {
   background-color: #FF7F3F !important;
 }
 
+.navbar-h1 {
+  position: relative;
+  top: 20% !important;
+}
+
 #home-page {
   text-align: center;
   position: relative;
@@ -141,33 +146,33 @@ p {
   background-color: #FF7F3F;
 }
 
-#courses {
+.courses {
   padding-top: 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#courses .card {
+.courses .card {
   position: relative;
   margin-bottom: 50px;
   width: 400px;
 }
-#courses .card h5 {
+.courses .card h5 {
   font-size: 24px;
 }
-#courses .card div {
+.courses .card div {
   position: relative;
 }
-#courses .card .btn {
+.courses .card .btn {
   background-color: #FF7F3F;
   color: white;
 }
-#courses .card .card-img-top {
+.courses .card .card-img-top {
   width: 399px;
   height: 300px;
   background-size: cover;
 }
-#courses .card .card-img-top::before {
+.courses .card .card-img-top::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -177,10 +182,10 @@ p {
   background-color: #FF7F3F;
   opacity: 0.45;
 }
-#courses .card #first-image {
+.courses .card #first-image {
   background-image: url("/assets/img/html-css.jpg");
 }
-#courses .card #second-image {
+.courses .card #second-image {
   background-image: url("/assets/img/js-basics.jpg");
 }
 
@@ -235,6 +240,63 @@ p {
 .alert {
   margin-left: 38%;
   width: 450px;
+}
+
+#explanation {
+  margin-top: 20px;
+  text-align: center;
+}
+#explanation p {
+  padding: 25px;
+}
+
+#showcase {
+  margin-top: 50px;
+  text-align: center;
+}
+#showcase .card {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+}
+#showcase .card .icon {
+  width: 32px;
+  height: 32px;
+  color: #FF7F3F;
+}
+
+#people .carousel-item {
+  height: 500px;
+  text-align: center;
+  padding: 50px;
+}
+#people .carousel-item .carousel-img {
+  border-radius: 50%;
+  border: 5px solid #FF7F3F;
+  margin-bottom: 20px;
+}
+#people .icon {
+  width: 32px;
+  height: 32px;
+  color: #FF7F3F;
+}
+
+#modules {
+  text-align: center;
+  margin-top: 20px;
+}
+#modules h1 {
+  padding: 20px;
+}
+#modules .accordion .accordion-button {
+  background-color: #FF7F3F;
+  color: white;
+}
+#modules .accordion .accordion-button:focus {
+  border-color: #FF7F3F !important;
+  box-shadow: 0 0 0 0.25rem rgba(255, 127, 63, 0.25);
 }
 
 @media only screen and (min-width: 961px) {

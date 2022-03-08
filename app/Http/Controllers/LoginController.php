@@ -14,11 +14,7 @@ class LoginController extends Controller
         $user = new User();
         $user->name =$userDatas['name'];
         $user->password = Hash::make($userDatas['password']);
-        if(User::where("email", "=", $userDatas['email'])){
-            return redirect("/#form")->with("error", "Another account exists with the same password or email");
-        }else{
-            $user->email = $userDatas['email'];
-        }
+        $user->email = $userDatas['email'];
         $user->save();
         
         return redirect("overview");
