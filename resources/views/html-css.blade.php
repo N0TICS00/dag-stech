@@ -14,7 +14,7 @@
 </section>
 <section id="explanation">
     <h1>What are HTML & CSS?</h1>
-    <p>HTML & CSS are the basis of the internet, everything on the internet has been done with them. And learning them will help you a lot to understand what is behind the creation of a website</p>
+    <p>HTML & CSS are the basis of the internet, everything on the internet has been done with them. And learning them will help you a lot to understand what is behind the creation of a website.</p>
 </section>
 <section id="showcase">
     <h1>All the course explained in data.</h1>
@@ -44,41 +44,6 @@
             </div>
         </div>
     </div>
-</section>
-<section id="people">
-    <h1>But behind the numbers there are also people</h1>
-    <!--CAROUSEL-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1" class="active" style="background-color:#FF7F3F"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color:#FF7F3F"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-color:#FF7F3F"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../../assets/img/42.jpg" alt="Ray Gomez" class="carousel-img">
-      <p>Good one! Slowly, but surely explained everything. Not too long, chapters made to the point. All what is needed is said. Had lots of fun, and gain lots of knowledge. Thanks and see you in next one. <br>~Ray Gomez</p>
-    </div>
-    <div class="carousel-item">
-      <img src="../../assets/img/0.jpg" class="carousel-img" alt="Ashley Knight">
-      <p>A great course and a great instructor. Thanks Warren for your fantastic work. I learned a lot and highly recommend everyone who likes to learn html and CSS to participate in this descriptive and easy to learn course. I hope we can have more courses from Warren. Ones more thanks for your great job.<br>~Ashley Knight</p>
-    </div>
-    <div class="carousel-item">
-      <img src="../../assets/img/48.jpg" class="carousel-img" alt="Mary Bell">
-      <p>It was really a good experience to learn with Jonas. The way he explained every single piece of code that he wrote throughout the entire lecture is praiseworthy! Not only that, there was even theoretical explanations as well. I truly liked it to be very honest!
-
-Although I had some knowledge of coding before watching this course, yet, I can surely say that a beginner with absolutely no coding experience can benefit a lot from this course.<br>~Mary Bell</p>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-  <ion-icon name="caret-back-outline" class="icon" aria-hidden="true"></ion-icon>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-  <ion-icon name="caret-forward-outline" class="icon" aria-hidden="true"></ion-icon>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 </section>
 <section id="modules">
     <h1>All the modules of the course</h1>
@@ -241,5 +206,44 @@ Although I had some knowledge of coding before watching this course, yet, I can 
   </div>
 </div>  
 </section>
+<section id="people">
+    <h1>But behind the numbers there are also people</h1>
+    <!--CAROUSEL-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1" class="active" style="background-color:#FF7F3F"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color:#FF7F3F"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-color:#FF7F3F"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../../assets/img/42.jpg" alt="Ray Gomez" class="carousel-img">
+      <p>Good one! Slowly, but surely explained everything. Not too long, chapters made to the point. All what is needed is said. Had lots of fun, and gain lots of knowledge. Thanks and see you in next one. <br>~Ray Gomez</p>
+    </div>
+    <div class="carousel-item">
+      <img src="../../assets/img/0.jpg" class="carousel-img" alt="Ashley Knight">
+      <p>A great course and a great instructor. Thanks Warren for your fantastic work. I learned a lot and highly recommend everyone who likes to learn html and CSS to participate in this descriptive and easy to learn course. I hope we can have more courses from Warren. Ones more thanks for your great job.<br>~Ashley Knight</p>
+    </div>
+    <div class="carousel-item">
+      <img src="../../assets/img/48.jpg" class="carousel-img" alt="Mary Bell">
+      <p>It was really a good experience to learn with Jonas. The way he explained every single piece of code that he wrote throughout the entire lecture is praiseworthy! Not only that, there was even theoretical explanations as well. I truly liked it to be very honest!
+
+Although I had some knowledge of coding before watching this course, yet, I can surely say that a beginner with absolutely no coding experience can benefit a lot from this course.<br>~Mary Bell</p>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <ion-icon name="caret-back-outline" class="icon" aria-hidden="true"></ion-icon>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <ion-icon name="caret-forward-outline" class="icon" aria-hidden="true"></ion-icon>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<section id="cta">
+  <a href="/#form" class="btn button btn-lg btn-dark">Sign Up to our Platform</a>
+</section>
+@include("partials.footer")
 <script src="/assets/js/index.js"></script>
 </body>
