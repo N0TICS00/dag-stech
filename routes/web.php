@@ -30,6 +30,6 @@ Route::get("/roadmap/2", function(){
 });
 Route::post("/", [LoginController::class, "userSignIn"]);
 Route::post("/login", [LoginController::class, "userLogin"]);
-Route::post("/mailchimp", [LoginController::class, "newsletterSignup"]);
+Route::post("/news", [LoginController::class, "newsletterSignup"]);
 
 

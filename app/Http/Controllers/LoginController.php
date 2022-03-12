@@ -1,11 +1,12 @@
 <?php
-
+//KEY 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
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
-require_once('/path/to/MailchimpMarketing/vendor/autoload.php');
+use Illuminate\Support\Facades\Mail;
+use App\Mail\SignedUp;
 
 class LoginController extends Controller
 {
@@ -35,36 +36,9 @@ class LoginController extends Controller
             }
         }
     }
-    public function newsletterSignup(Request $req){
-        $mailchimp = new \MailchimpMarketing\ApiClient();
-        $mailchimp->setConfig([
-            'apiKey' => 'd0851a352e1ea76c4d52da69ea3a0062-us6',
-            'server' => 'us6'
-        ]);
-        try{
-            $response = $mailchimp->lists->createList([
-                "name" => "dag's tech",
-                "permission_reminder" => "permission_reminder",
-                "email_type_option" => false,
-                "contact" => [
-                "company" => "dag's tech",
-                "address1" => "Via San Giuseppe, 19",
-                "city" => "Turin",
-                "state" => "IT",
-                "zip" => "10121",
-                "country" => "EU",
-                ],
-                "campaign_defaults" => [
-                "from_name" => "Gettin' Together",
-                "from_email" => "notics.pro@gmail.com",
-                "subject" => "dag's tech",
-                "language" => "IT",
-                ],
-            ]);
-            die(var_dump($response));
-        } catch(MailchimpMarketing\ApiException $e){
-            die(var_dump($e->getMessage()));
-        }
-        return back();
+    public function newsletterSignup(Request $request){
+       
+       Mail::to('paolodagostino08@gmail.com')->send(new SignedUp($request));
+       return redirect("/#discover")->with('success', "You subscribed to our newsletter!");
     }
 }

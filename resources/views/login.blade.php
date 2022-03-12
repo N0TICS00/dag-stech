@@ -4,7 +4,7 @@
 <div class="login">
 <section id="form" >
     @include("partials.flash")
-    <h1>Login to our platform.  </h1>
+    <h1>Login to our platform  </h1>
     <div class="form-div">
         <form action="/login" method="POST">
             @csrf

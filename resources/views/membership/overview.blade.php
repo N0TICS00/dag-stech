@@ -4,7 +4,7 @@
 @include("partials.navbar")
 <!--COURSES-->
 <section class="courses">
-    <h1>Our Courses.</h1>
+    <h1>Our Courses</h1>
     <div class="cards">
     <div class="card">
         <div class="card-img-top" id="first-image">

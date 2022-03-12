@@ -4,6 +4,7 @@
 
 <!--FAQ-->
 <section id="faq">
+<section id="modules">
 <h1>Frequently Asked Question</h1>
 <div class="accordion-div">
 <div class="accordion" id="accordionExample">
@@ -53,5 +54,6 @@
   </div>
 </div>
 </div>
+</section>
 </section>
  

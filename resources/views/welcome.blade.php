@@ -10,13 +10,13 @@
             </a>
         </div>
     </nav>
-    <h1>Choose us for your formation.</h1>
+    <h1>Choose us for your formation</h1>
     <a class="btn button btn-lg" href="#form">Sign Up</a>
     <ion-icon name="chevron-down-outline" class="down"></ion-icon>
 </section>
 <!--STORY-->
 <section id="story">
-  <h1>Our Story.</h1>
+  <h1>Our Story</h1>
   <div class="story-img-div">
   <img src="assets/img/skyscraper.jpg" alt="SkyScraper" class="story-img">
   </div>
@@ -24,7 +24,7 @@
 </section>
 <!--EXPERIENCE-->
 <section id="experience">
-  <h1>An experience that changes your life.</h1>
+  <h1>An experience that changes your life</h1>
   <div class="list">
     <div class="list-item">
       <ion-icon name="laptop-outline" class="icon"></ion-icon> <p>Thanks to our courses, which will give you a solid foundation, you can aim for positions as a Junior Developer.</p>
@@ -41,8 +41,10 @@
 
 </section>
 <section id="discover">
-  <h2>Discover all about our courses.</h2>
-  <form method="POST" action="/mailchimp">
+  @include('partials.flash')
+  <h2>Discover all about our courses</h2>
+  <form method="POST" action="/news">
+    @csrf
     <p>Subscribe to our newsletter! </p>
     <input class="form" type="email" required>
     <p>
@@ -52,7 +54,7 @@
 </section>
 <!--COURSES-->
 <section class="courses">
-    <h1>Our Courses.</h1>
+    <h1>Our Courses</h1>
     <div class="cards">
     <div class="card" >
         <div class="card-img-top" id="first-image">
@@ -95,16 +97,22 @@
 </section>
 <!--TEACHER-->
 <section id="teacher">
-    <h1>Meet the teacher.</h1>
+    <h1>Meet the teacher</h1>
     <div class="teacher">
         <img class="teacher-img" src="assets/img/teacher.jpg" alt="Warren Morrison">
         <h1>Warren Morrison</h1>
         <p class="teacher-p">Warren Morrison was born in 7/5/1970 in London.
             He discovered a passion for programming when he was 13. He attended Computer Science and got a job at Centure Inc. At the age of 25 he became Senior Full Stack Developer at the Renesas Company and thanks to this work he was able to find new stimuli, so much so that he could register a course.</p>
+            <!-- Calendly badge widget begin -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+            <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/notics-pro?primary_color=ff7f3f', text: 'Book a call with Mr. Morrison!', color: '#ff7f3f', textColor: '#ffffff',  }); }</script>
+<!-- Calendly badge widget end -->
     </div>
 </section>
 <!--FAQ-->
 <section id="faq-home">
+<section id="modules">
 <h1>Frequently Asked Question</h1>
 <div class="accordion-div">
 <div class="accordion" id="accordionExample">
@@ -155,10 +163,11 @@
 </div>
 </div>
 </section>
+</section>
  
 <!--FORM-->
 <section id="form">
-    <h1>Subscribe to our platform.  </h1>
+    <h1>Subscribe to our platform </h1>
     @include("partials.flash")
     <div class="form-div">
         <form action="/" method="POST">
@@ -192,3 +201,4 @@
     </div>
 </section>
 @include("partials.footer")
+<script src="/assets/js/index.js"></script>

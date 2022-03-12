@@ -34,3 +34,6 @@ let text = document.getElementById("numbers")
 const load = () => {
     animation(text, 0, 5000, 10000)
 }
+$(".alert").fadeTo(2000, 500).slideUp(500, function(){
+    $(".alert").slideUp(500);
+});

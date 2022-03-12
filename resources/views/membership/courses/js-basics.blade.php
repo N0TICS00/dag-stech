@@ -6,7 +6,6 @@
         <source src="/assets/img/coding.mp4">
     </video>
     <section id="modules">
-    <h1>All the modules of the course</h1>
     <div class="accordion accordion-roadmap" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">

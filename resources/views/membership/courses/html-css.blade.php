@@ -5,21 +5,23 @@
     <video class="video" controls>
         <source src="/assets/img/coding.mp4">
     </video>
-    <div class="accordion " id="accordionExample">
+    <section id="modules">
+    <div class="accordion accordion-roadmap" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Welcome and First Steps
+        Getting Started
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <ol>
-            <li>A High-Level Overview of Web Development</li>
-            <li>Setting Up Our Code Editor</li>
-            <li>Your Very First Webpage</li>
-            <li>Downloading Course Material</li>
-            <li>Watch Before You Start</li>
+            <li>Welcome</li>
+            <li>What is JavaScript?</li>
+            <li>Setting Up the Development</li>
+            <li>JavaScript in Browsers</li>
+            <li>Separation of Concerns</li>
+            <li>JavaScript in Node</li>
         </ol>
       </div>
     </div>
@@ -33,17 +35,14 @@
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
        <ol>
-           <li>Introduction to HTML</li>
-           <li>HTML Document Structure</li>
-           <li>Text Elements</li>
-           <li>More Text Elements: Lists</li>
-           <li>Images and Attributes</li>
-           <li>Hyperlinks</li>
-           <li>Structuring our Page</li>
-           <li>A Note on Semantic HTML</li>
-           <li>Installing Additional VS Code Extensions</li>
-           <li>Challenge #1</li>
-           <li>Challenge #2</li>
+           <li>Variables</li>
+           <li>Constants</li>
+           <li>Primitive Types</li>
+           <li>Dynamic Typing</li>
+           <li>Objects</li>
+           <li>Arrays</li>
+           <li>Functions</li>
+           <li>Types of Functions</li>
        </ol>
       </div>
     </div>
@@ -51,35 +50,24 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        CSS Fundamentals
+        Operators
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <ol>
-            <li>Introduction to CSS</li>
-            <li>Inline,Internal, and External CSS</li>
-            <li>Styling Text</li>
-            <li>Combining Selectors</li>
-            <li>Class and ID Selectors</li>
-            <li>Working with Colors</li>
-            <li>Pseudo-classes</li>
-            <li>Styling Hyperlinks</li>
-            <li>Using Chrome DevTools</li>
-            <li>CSS Theory #1: Conflicts Between Selectors</li>
-            <li>CSS Theory #2: Inheritance and the Universal Selector</li>
-            <li>Challenge #1</li>
-            <li>CSS Theory #3: The CSS Box Model</li>
-            <li>Using Margins and Paddings</li>
-            <li>Adding Dimensions</li>
-            <li>Centering Our Page</li>
-            <li>Challenge #2</li>
-            <li>CSS Theory #4: Types of Boxes</li>
-            <li>CSS Theory #5: Absolute Positioning</li>
-            <li>Pseudo-elements</li>
-            <li>Developer Skill #1: Googling and Reading Documentation</li>
-            <li>Developer Skill #2: Debugging and Asking Questions</li>
-            <li>Challenge #3</li>
+            <li>JavaScript Operators</li>
+            <li>Arithmetic Operators</li>
+            <li>Assignment Operators</li>
+            <li>Comparison Operators</li>
+            <li>Equality Operators</li>
+            <li>Ternary Operators</li>
+            <li>Logical Operators with Non-booleans</li>
+            <li>Logical Operators with Non-booleans #2</li>
+            <li>BitWise Operators</li>
+            <li>Operator Precedence</li>
+            <li>Quiz</li>
+            <li>Challenge: Swapping Variables</li>
         </ol>
       </div>
     </div>
@@ -87,31 +75,32 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingFour">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-        Layouts: Floats, Flexbox, and CSS Grid Fundamentals
+      Control Flow
       </button>
     </h2>
     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
       <div class="accordion-body">
        <ol>
-           <li>The 3 Ways of Building Layouts</li>
-           <li>Using Floats</li>
-           <li>Clearing Floats</li>
-           <li>Building a Simple Float Layout</li>
-           <li>box-sizing: border-box</li>
-           <li>Challenge #1</li>
-           <li>Introduction to Flexbox</li>
-           <li>A Flexbox Overview</li>
-           <li>Spacing and Aligning Flex Items</li>
-           <li>The flex Property</li>
-           <li>Adding Flexbox to Our Project</li>
-           <li>Building a Simple Flexbox Layout</li>
-           <li>Challenge #2</li>
-           <li>Introduction to CSS Grid</li>
-           <li>A CSS Grid Overview</li>
-           <li>Sizing Grid Columns and Rows</li>
-           <li>Placing and Spanning Grid Items</li>
-           <li>Aligning Grid Items and Tracks</li>
-           <li>Building a Simple CSS Grid Layout</li>
+           <li>If-Else</li>
+           <li>Switch-Case</li>
+           <li>For</li>
+           <li>While</li>
+           <li>Do-While</li>
+           <li>Infinite Loops</li>
+           <li>For-in</li>
+           <li>For-of</li>
+           <li>Break and Continue</li>
+           <li>Max of Two Numbers</li>
+           <li>Challenge #1: Landscape or Portrait</li>
+           <li>Challenge #2: FizzBuzz</li>
+           <li>Challenge #3: Demerit Points</li>
+           <li>Challenge #4: Even and Odd Numbers</li>
+           <li>Challenge #5: Count Truthy</li>
+           <li>Challenge #6: String Properties</li>
+           <li>Challenge #7: Sum of Multiples 3 and 5</li>
+           <li>Challenge #8: Grade</li>
+           <li>Challenge #9: Stars</li>
+           <li>Challenge #10: Prime Numbers</li>
         </ol>
       </div>
     </div>
@@ -119,23 +108,32 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingFive">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-        Components and Layout Patterns
+        Objects
       </button>
     </h2>
     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <ol>
-        <li>Building an Accordion Component - Part 1</li>
-        <li>Building an Accordion Component - Part 2</li>
-        <li>Building a Carousel Component - Part 1</li>
-        <li>Building a Carousel Component - Part 2</li>
-        <li>Building a Table Component - Part 1 </li>
-        <li>Building a Table Component - Part 2</li>
-        <li>Challenge #1: Building a Pagination Component</li>
-        <li>Building a Hero Section - Part 1</li>
-        <li>Building a Hero Section - Part 2</li>
-        <li>Building a Web Application Layout - Part 1 </li>
-        <li>Building a Web Application Layout - Part 2</li>
+        <li>Basics</li>
+        <li>Factory Functions</li>
+        <li>Constructor Functions</li>
+        <li>Dynamic Nature of Objects</li>
+        <li>Constructor Property </li>
+        <li>Functions are Objects</li>
+        <li>Value vs. Reference Types</li>
+        <li>Enumerating Properties of an Object</li>
+        <li>Cloning an Object</li>
+        <li>Garbage Collection </li>
+        <li>Math</li>
+        <li>String</li>
+        <li>Template Literals</li>
+        <li>Date</li>
+        <li>Challenge #1: Address Object</li>
+        <li>Challenge #2: Factory and Construtor Function</li>
+        <li>Challenge #3: Object Equality</li>
+        <li>Challenge #4: Blog Post Object</li>
+        <li>Challenge #5: Constructor Functions</li>
+        <li>Challenge #6: Price Range Objects</li>
         </ol>
       </div>
     </div>
@@ -143,24 +141,66 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingSix">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-        Bootstrap Fundamentals
+        Arrays
       </button>
     </h2>
     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
       <div class="accordion-body">
        <ol>
-           <li>Introduction to Bootstrap</li>
-           <li>Installing Bootstrap</li>
-           <li>The Bootstrap Navigation Bar</li>
-           <li>Setting Up Our New Project</li>
-           <li>Bootstrap Grid Layout System</li>
-           <li>Adding Grid Layouts to Our Website</li>
-           <li>Bootstrap Containers</li>
-           <li>Bootstrap Buttons & Font Awesome</li>
-           <li>Styling Our Website Challenges and Solutions</li>
-       </ol>
+           <li>Introduction</li>
+           <li>Adding Elements</li>
+           <li>Finding Elements (Primitives)</li>
+           <li>Finding Elements (Reference Types)</li>
+           <li>Arrow Functions</li>
+           <li>Removing Elemens</li>
+           <li>Emptying an Array</li>
+           <li>Combining and Slicing Arrays</li>
+           <li>The Spread Operator</li>
+           <li>Iterating an Array</li>
+           <li>Joining Arrays</li>
+           <li>Sorting Arrays</li>
+           <li>Testing the Elements of an Array</li>
+           <li>Filtering an Array</li>
+           <li>Mapping an Array</li>
+           <li>Reducing an Array</li>
+           <li>Challenge #1: Array from Range</li>
+           <li>Challenge #2: Includes</li>
+           <li>Challenge #3: Except</li>
+           <li>Challenge #4: Moving an Element</li>
+           <li>Challenge #5: Count Occurrences</li>
+           <li>Challenge #6: Get Max</li>
+           <li>Challenge #7: Movies</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSeven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        Functions
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       <ol>
+           <li>Function Declaration vs. Expressions</li>
+           <li>Hoisting</li>
+           <li>Arguments</li>
+           <li>The Rest Operator</li>
+           <li>Default Parameters</li>
+           <li>Getters and Setters</li>
+           <li>Try and Catch</li>
+           <li>Local vs. Global Scope</li>
+           <li>Let vs. Var</li>
+           <li>The THIS Keyword</li>
+           <li>Changing THIS</li>
+           <li>Challenge #1: Sum of Arguments</li>
+           <li>Challenge #2: Area of Circle</li>
+           <li>Challenge #3: Error Handling</li>
+        </ol>
       </div>
     </div>
   </div>
 </div>  
+</section>
 </section>

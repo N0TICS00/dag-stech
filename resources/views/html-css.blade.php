@@ -17,30 +17,30 @@
     <p>HTML & CSS are the basis of the internet, everything on the internet has been done with them. And learning them will help you a lot to understand what is behind the creation of a website.</p>
 </section>
 <section id="showcase">
-    <h1>All the course explained in data.</h1>
+    <h1>All the course explained in data</h1>
     <div class="cards-showcase">
         <div class="card">
             <div class="card-body card-showcase">
             <ion-icon name="albums-outline" class="icon"></ion-icon>
-                <p><strong>6</strong> modules of learning.</p>
+                <p><strong>6</strong> modules of learning</p>
             </div>
         </div>
         <div class="card">
             <div class="card-body card-showcase">
             <ion-icon name="book-outline" class="icon"></ion-icon>
-                <p><strong>150+</strong> lectures.</p>
+                <p><strong>150+</strong> lectures</p>
             </div>
         </div>
         <div class="card">
             <div class="card-body card-showcase">
             <ion-icon name="timer-outline" class="icon"></ion-icon>
-                <p><strong>35+</strong> hours of content.</p>
+                <p><strong>35+</strong> hours of content</p>
             </div>
         </div>
         <div class="card" style="height:150px">
             <div class="card-body card-showcase">
             <ion-icon name="people-outline" class="icon"></ion-icon>
-                <p><strong id="numbers"></strong><br> people have joined in the community.</p>
+                <p><strong id="numbers"></strong><br> people have joined in the community</p>
             </div>
         </div>
     </div>
@@ -207,7 +207,7 @@
 </div>  
 </section>
 <section id="people">
-    <h1>But behind the numbers there are also people</h1>
+    <h1>But, behind the numbers, there are also people</h1>
     <!--CAROUSEL-->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
   <div class="carousel-indicators">
