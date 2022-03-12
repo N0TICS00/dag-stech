@@ -21,6 +21,34 @@ p {
   font-size: 16px;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #3EA104;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e4e4e4;
+  border-radius: 5px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  color: #FF7F3F;
+}
+
 /*Waves*/
 .waves {
   position: relative;
@@ -146,6 +174,35 @@ p {
   background-color: #FF7F3F;
 }
 
+#story {
+  margin-top: 100px;
+  text-align: center;
+  padding: 0px 25px;
+}
+#story .story-img {
+  height: 400px;
+  margin: 20px;
+}
+
+#experience {
+  text-align: center;
+  padding: 25px;
+}
+
+#discover {
+  text-align: center;
+}
+#discover .btn {
+  background-color: #FF7F3F;
+  color: white;
+  margin-top: 10px;
+}
+#discover input {
+  border: solid 2px;
+  border-color: #FF7F3F;
+  border-radius: 10px;
+}
+
 .courses {
   padding-top: 15%;
   display: flex;
@@ -191,9 +248,11 @@ p {
 
 #teacher {
   text-align: center;
+  padding-top: 15%;
   padding: 50px;
 }
 #teacher .teacher-img {
+  margin-top: 20px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -202,7 +261,12 @@ p {
   outline-width: 5px;
 }
 
+#faq-home {
+  margin-top: 50px;
+}
+
 #form {
+  margin-top: 70px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -229,7 +293,7 @@ p {
   margin-bottom: 75px;
 }
 
-#html-css .video {
+.video {
   width: 100%;
 }
 
@@ -280,11 +344,6 @@ p {
   border: 5px solid #FF7F3F;
   margin-bottom: 20px;
 }
-#people .icon {
-  width: 32px;
-  height: 32px;
-  color: #FF7F3F;
-}
 
 #modules {
   text-align: center;
@@ -300,6 +359,12 @@ p {
 #modules .accordion .accordion-button:focus {
   border-color: #FF7F3F !important;
   box-shadow: 0 0 0 0.25rem rgba(255, 127, 63, 0.25);
+}
+#modules .accordion .accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+#modules .accordion .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
 #cta {
@@ -324,12 +389,16 @@ p {
     text-align: center;
   }
 
+  .navbar-brand {
+    margin-left: 38.5% !important;
+  }
+
   .down {
     margin-left: 140px;
   }
 
-  #courses {
-    margin-top: -100px;
+  .courses {
+    margin-top: -150px;
   }
 
   .cards {
@@ -374,6 +443,44 @@ p {
 
   .accordion-item {
     width: 700px;
+  }
+
+  #story p {
+    padding: 0 100px;
+    width: 50%;
+    margin: auto;
+  }
+
+  #experience {
+    text-align: center;
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .list-item {
+    margin-top: 20px;
+    width: 400px;
+  }
+
+  .cards-showcase {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carousel-p {
+    padding: 0 500px;
+  }
+
+  #explanation {
+    margin-top: 50px;
+  }
+
+  #explanation p {
+    padding: 0 500px;
   }
 }
 

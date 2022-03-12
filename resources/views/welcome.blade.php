@@ -14,6 +14,42 @@
     <a class="btn button btn-lg" href="#form">Sign Up</a>
     <ion-icon name="chevron-down-outline" class="down"></ion-icon>
 </section>
+<!--STORY-->
+<section id="story">
+  <h1>Our Story.</h1>
+  <div class="story-img-div">
+  <img src="assets/img/skyscraper.jpg" alt="SkyScraper" class="story-img">
+  </div>
+  <p>Our company was founded in 2015 to meet people’s need to learn the skills they need to make a career in the web world. Our founder, teacher Morrison, has decades of experience in web development and web application management. Our goal, in addition to teaching skills, is to bring people together to help each other in their work.</p>
+</section>
+<!--EXPERIENCE-->
+<section id="experience">
+  <h1>An experience that changes your life.</h1>
+  <div class="list">
+    <div class="list-item">
+      <ion-icon name="laptop-outline" class="icon"></ion-icon> <p>Thanks to our courses, which will give you a solid foundation, you can aim for positions as a Junior Developer.</p>
+    </div>
+    <div class="list-item">
+      <ion-icon name="briefcase-outline"class="icon"></ion-icon >
+      <p>Our courses and related projects are job-oriented that will make you more attractive to companies.</p>
+    </div>
+    <div class="list-item">
+      <ion-icon name="videocam-outline" class="icon"></ion-icon>
+      <p>At the end of the course, there will be a special course for alumni that will consist in finding a job suitable for the skills developed and the goals of the person.</p>
+    </div>
+  </div>
+
+</section>
+<section id="discover">
+  <h2>Discover all about our courses.</h2>
+  <form method="POST" action="/mailchimp">
+    <p>Subscribe to our newsletter! </p>
+    <input class="form" type="email" required>
+    <p>
+    <button class="btn" type="submit">Submit</button>
+    </p>
+  </form>
+</section>
 <!--COURSES-->
 <section class="courses">
     <h1>Our Courses.</h1>
@@ -28,8 +64,8 @@
             <strong>3 REASON TO LEARN HTML & CSS</strong>
             <ul>
                 <li>Web development is one of the most future-proof and highest-paying industries in the world. And HTML and CSS is the entry point to this world!</li>
-                <li>Used in every sites of every Companies</li>
-                <li>Creative Work with them and their framework such as Bootstrap and TailWind</li>
+                <li>Used in every sites of every Companies.</li>
+                <li>Creative Work with them and their framework such as Bootstrap.</li>
 
             </ul>
             <a class="btn" href="/roadmap/1">Course's Roadmap</a>
@@ -68,7 +104,7 @@
     </div>
 </section>
 <!--FAQ-->
-<section id="faq">
+<section id="faq-home">
 <h1>Frequently Asked Question</h1>
 <div class="accordion-div">
 <div class="accordion" id="accordionExample">

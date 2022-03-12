@@ -18,7 +18,7 @@
 </section>
 <section id="showcase">
     <h1>All the course explained in data.</h1>
-    <div class="cards">
+    <div class="cards-showcase">
         <div class="card">
             <div class="card-body card-showcase">
             <ion-icon name="albums-outline" class="icon"></ion-icon>
@@ -204,6 +204,40 @@
            <li>Filtering an Array</li>
            <li>Mapping an Array</li>
            <li>Reducing an Array</li>
+           <li>Challenge #1: Array from Range</li>
+           <li>Challenge #2: Includes</li>
+           <li>Challenge #3: Except</li>
+           <li>Challenge #4: Moving an Element</li>
+           <li>Challenge #5: Count Occurrences</li>
+           <li>Challenge #6: Get Max</li>
+           <li>Challenge #7: Movies</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSeven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        Functions
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       <ol>
+           <li>Function Declaration vs. Expressions</li>
+           <li>Hoisting</li>
+           <li>Arguments</li>
+           <li>The Rest Operator</li>
+           <li>Default Parameters</li>
+           <li>Getters and Setters</li>
+           <li>Try and Catch</li>
+           <li>Local vs. Global Scope</li>
+           <li>Let vs. Var</li>
+           <li>The THIS Keyword</li>
+           <li>Changing THIS</li>
+           <li>Challenge #1: Sum of Arguments</li>
+           <li>Challenge #2: Area of Circle</li>
+           <li>Challenge #3: Error Handling</li>
         </ol>
       </div>
     </div>
@@ -222,17 +256,15 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="../../assets/img/42.jpg" alt="Ray Gomez" class="carousel-img">
-      <p>Good one! Slowly, but surely explained everything. Not too long, chapters made to the point. All what is needed is said. Had lots of fun, and gain lots of knowledge. Thanks and see you in next one. <br>~Ray Gomez</p>
+      <p class="carousel-p">I like Warren personally as a tutor. He is a great tutor and teaches concepts really well. He makes complex things also easier through his teaching. He makes audience to understand what he teaches, easier.<br>~Ray Gomez</p>
     </div>
     <div class="carousel-item">
       <img src="../../assets/img/0.jpg" class="carousel-img" alt="Ashley Knight">
-      <p>A great course and a great instructor. Thanks Warren for your fantastic work. I learned a lot and highly recommend everyone who likes to learn html and CSS to participate in this descriptive and easy to learn course. I hope we can have more courses from Warren. Ones more thanks for your great job.<br>~Ashley Knight</p>
+      <p class="carousel-p">Excellent course to get JavaScript fundamentals. Course structured is great with learning objectives at the start and opportunities to do some exercises.<br>~Ashley Knight</p>
     </div>
     <div class="carousel-item">
       <img src="../../assets/img/48.jpg" class="carousel-img" alt="Mary Bell">
-      <p>It was really a good experience to learn with Jonas. The way he explained every single piece of code that he wrote throughout the entire lecture is praiseworthy! Not only that, there was even theoretical explanations as well. I truly liked it to be very honest!
-
-Although I had some knowledge of coding before watching this course, yet, I can surely say that a beginner with absolutely no coding experience can benefit a lot from this course.<br>~Mary Bell</p>
+      <p class="carousel-p">The best JavaScript beginner course I've found on. Now I can confidently dive deeper into advanced JavaScript concepts without any hesitation. Thank you, Warren, for everything I learned from this beautiful course. <br>~Mary Bell</p>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

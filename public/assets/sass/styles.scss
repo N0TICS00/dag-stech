@@ -20,6 +20,35 @@ h1{
 p{
     font-size: 16px
 }
+//SCROLLBAR
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#3EA104;
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e4e4e4;
+    border-radius: 5px;
+  }
+//GENERAL
+.icon{
+    width: 32px;
+    height: 32px;
+    color:variables.$primary-color
+}
 //FOOTER
 /*Waves*/
 
@@ -97,7 +126,7 @@ p{
 #home-page{
     text-align: center;
     position: relative;
-    height: 975px  ;
+    height: 975px;
     color:white;
     background-image: url("/assets/img/photo-home.jpg");
     background-size: cover;
@@ -143,6 +172,38 @@ p{
     opacity: 0.65;
     background-color:variables.$primary-color;
 }
+//STORY PAGE
+#story{
+    margin-top: 100px;
+    text-align: center;
+    padding: 0px 25px;
+    .story-img{
+        height: 400px;
+        margin: 20px
+        
+    }
+}
+//EXPERIENCE PAGE
+#experience{
+    text-align: center;
+    padding: 25px
+}
+//NEWSLETTER
+#discover{
+    text-align: center;
+    .btn{
+        background-color: variables.$primary-color;
+        color:white;
+        margin-top: 10px;
+    }
+    input{
+        border: solid 2px;
+        border-color: variables.$primary-color;
+        border-radius: 10px;
+    }
+
+}
+
 //COURSES PAGE
 .courses{
     padding-top: 15%;
@@ -190,8 +251,10 @@ p{
 //TEACHER
 #teacher{
     text-align: center;
+    padding-top: 15%;
     padding: 50px;
     .teacher-img{
+        margin-top: 20px;
         width: 200px;
         height: 200px;
         border-radius: 50%;
@@ -200,8 +263,13 @@ p{
         outline-width: 5px;
     }
 }
+//FAQ HOME
+#faq-home{
+    margin-top: 50px
+}
 //FORM
 #form{
+    margin-top: 70px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -220,6 +288,7 @@ p{
     
     
 }
+
 //MEMBERSHIP PAGE
 #navbar{
     .navbar{
@@ -234,12 +303,10 @@ p{
 
 }
 //HTML & CSS PAGE
-#html-css{
     .video{
         width: 100%;
         
     }
-}
 .login{
     margin-top: 300px;
 }
@@ -284,11 +351,7 @@ p{
            margin-bottom:20px
        }
    }
-    .icon{
-        width: 32px;
-        height: 32px;
-        color:variables.$primary-color
-    }
+
 }
 #modules{
     text-align: center;
@@ -306,7 +369,12 @@ p{
             box-shadow: 0 0 0 0.25rem rgb(255 127 63 / 25%);
 
         }
-
+        .accordion-button.collapsed::after{
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+        .accordion-button::after{
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
+        };
     }
 }
 #cta{
@@ -329,11 +397,15 @@ p{
     #homepage{
         text-align: center;
     }
+    .navbar-brand{
+        margin-left: 38.5%!important
+
+    }
     .down{
         margin-left: 140px
     }
-    #courses{
-        margin-top: -100px;
+    .courses{
+        margin-top: -150px;
     }
     .cards{
         display: flex;
@@ -371,5 +443,36 @@ p{
     }
     .accordion-item{
         width:700px
+    }
+    #story p {
+        padding: 0 100px;
+        width: 50%;
+        margin: auto;
+        
+    }
+    #experience{
+        text-align: center;
+    }
+    .list{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .list-item{
+        margin-top: 20px ;
+        width: 400px
+    }
+    .cards-showcase{
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel-p{
+        padding: 0 500px
+    }
+    #explanation {
+        margin-top: 50px;
+    }
+    #explanation p {
+        padding: 0 500px
     }
 };

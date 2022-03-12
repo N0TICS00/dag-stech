@@ -16,13 +16,14 @@
             <strong>3 REASON TO LEARN HTML & CSS</strong>
             <ul>
                 <li>Web development is one of the most future-proof and highest-paying industries in the world. And HTML and CSS is the entry point to this world!</li>
-                <li>Used in every sites of every Companies</li>
-                <li>Creative Work with them and their framework such as Bootstrap and TailWind</li>
+                <li>Used in every sites of every Companies.</li>
+                <li>Creative Work with them and their framework such as Bootstrap.</li>
 
             </ul></p>
             <a href="/courses/1" class="btn ">Go to HTML & CSS</a>
         </div>
     </div>
+    
     <div class="card" >
         <div class="card-img-top" id="second-image">
         </div>
