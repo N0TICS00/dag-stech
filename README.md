@@ -78,12 +78,6 @@ For install this on your machine follow this steps
    composer install 
    ```
 
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> e3454a57c35f9008e35c93acee69ac8ef17c2917
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
