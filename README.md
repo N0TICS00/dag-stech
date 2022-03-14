@@ -1,19 +1,17 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+
 
   <h3 align="center">dag's tech</h3>
 
   <p align="center">
     A website of online courses
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/N0TICS00/dag-stech/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://dagstech.herokuapp.com/">View Demo</a>
 
 </p>
 
@@ -47,7 +45,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![image](https://user-images.githubusercontent.com/76558194/158229209-77b615b2-5864-465f-8741-192d1c28141b.png)](https://dagstech.herokuapp.com/)
 
 A fake site about a company that sells online courses, made as a final project of a course
 
