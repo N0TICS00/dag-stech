@@ -331,6 +331,13 @@ p {
   color: #FF7F3F;
 }
 
+#reasons {
+  text-align: center;
+}
+#reasons h1 {
+  padding: 0 20px;
+}
+
 #people {
   margin-top: 50px;
 }
@@ -380,7 +387,7 @@ p {
   text-align: center;
 }
 
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 1441px) {
   .container {
     padding: 1.5% 7.5%;
   }
@@ -485,6 +492,136 @@ p {
 
   #explanation p {
     padding: 0 500px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1439px) {
+  .navbar-brand {
+    margin-left: 41% !important;
+  }
+
+  .down {
+    margin-left: 6.5%;
+  }
+
+  #story p {
+    padding: 0 250px;
+  }
+
+  .list-item p {
+    padding: 0 400px;
+  }
+
+  .courses {
+    margin-top: -100px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card {
+    margin: 0px 50px;
+    width: 600px !important;
+  }
+
+  .card-img-top {
+    width: 599px !important;
+  }
+
+  .teacher-p {
+    padding: 0 150px;
+  }
+
+  .accordion {
+    margin-left: 25.5%;
+  }
+
+  .accordion-item {
+    width: 700px;
+  }
+
+  .form {
+    width: 300px;
+    height: 25px;
+  }
+
+  .user-name {
+    margin-left: 0px !important;
+  }
+
+  .container {
+    padding: -10% 7.5%;
+  }
+
+  .items {
+    position: relative;
+    left: 410px;
+  }
+
+  #explanation p {
+    padding: 0 300px;
+  }
+}
+@media only screen and (min-width: 441px) and (max-width: 1024px) {
+  .navbar-brand {
+    margin-left: 36.5% !important;
+  }
+
+  .down {
+    margin-left: 4.75%;
+  }
+
+  #story p {
+    padding: 0 150px;
+  }
+
+  .list-item p {
+    padding: 0 200px;
+  }
+
+  .form {
+    width: 300px;
+    height: 25px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 0px 50px;
+    width: 600px !important;
+  }
+
+  .card-img-top {
+    width: 599px !important;
+  }
+
+  .teacher-p {
+    padding: 0 150px;
+  }
+
+  .accordion {
+    margin-left: 16%;
+  }
+
+  .accordion-item {
+    width: 700px;
+  }
+
+  .user-name {
+    margin-left: 160px !important;
+  }
+
+  .container {
+    padding: -10% 7.5%;
+  }
+
+  .items {
+    position: relative;
+    left: 110px;
   }
 }
 

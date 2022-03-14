@@ -14,7 +14,15 @@
 </section>
 <section id="explanation">
     <h1>What are HTML & CSS?</h1>
-    <p>HTML & CSS are the basis of the internet, everything on the internet has been done with them. And learning them will help you a lot to understand what is behind the creation of a website.</p>
+    <p>HTML & CSS are the basis of the internet, everything you can find on the sites has been done with them. If you want to learn these superpowers, you are in the right place! They are the basis of the internet, everything you can find on the sites has been done with them.</p>
+</section>
+<section id="reasons">
+  <h1>Some reasons to learn HTML & CSS</h1>
+
+    <li>Web development is one of the most future-proof and highest-paying industries in the world. And HTML and CSS is the entry point to this world!</li>
+    <li>Used in every sites of every Companies.</li>
+    <li>Creative Work with them and their framework such as Bootstrap.</li>
+
 </section>
 <section id="showcase">
     <h1>All the course explained in data</h1>

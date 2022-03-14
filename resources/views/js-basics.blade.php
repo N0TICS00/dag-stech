@@ -14,7 +14,15 @@
 </section>
 <section id="explanation">
     <h1>What is JavaScript?</h1>
-    <p>JavaScript is one of the most popular programming languages in the world, and growing faster than any other programming language.</p>
+    <p>JavaScript is one of the most popular programming languages in the world, and growing faster than any other programming language. As a developer, you can use JavaScript to build web and mobile apps, real-time networking apps, command-line tools, and games.</p>
+</section>
+<section id="reasons">
+  <h1>Some reasons to learn JavaScript</h1>
+
+    <li>JavaScript is a key tool for front-end, back-end, and full-stack developers.</li>
+    <li>The average annual salary for a JavaScript developer is $72,000.</li>
+    <li>Companies like Walmart, Netflix, and PayPal run big internal applications around JavaScript.</li>
+    <li>Having strong JavaScript knowledge will help you land your dream job.</li>
 </section>
 <section id="showcase">
     <h1>All the course explained in data</h1>
